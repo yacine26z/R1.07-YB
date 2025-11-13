@@ -25,4 +25,3 @@ else:
 
     total = tarif1 * 1.0 + tarif2 * 2.0
     print(f"Le montant total à payer est de {total:.1f} euro(s).")
-object
