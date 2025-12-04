@@ -28,11 +28,11 @@ def verification_date(date_str):
 
     # Vérification du jour
     if jour < 1 or jour > jours_par_mois[mois]:
-        print(f"❌ Date invalide : le jour {jour} n'existe pas en {mois}/{annee}.")
+        print(f" Date invalide : le jour {jour} n'existe pas en {mois}/{annee}.")
         return
 
     # Si tout est correct
-    print(f"✅ Date valide : {jour:02d}/{mois:02d}/{annee}")
+    print(f" Date valide : {jour:02d}/{mois:02d}/{annee}")
 
 # -------------------------------
 # Tests demandés
